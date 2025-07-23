@@ -36,6 +36,22 @@ database:
     # Senha do usuário de conexão: [EX: 123]
     password: ''
 
+# Delay para carregar os dados depois do login
+# Necessário para usar em servidor de mina separado
+# Recomendado: 20 ticks
+login-delay: 20
+
+# Este limite serve para recolher recompensas
+# Desativar ou aumentar o limite pode gerar lag
+# e em alguns casos crashar o servidor.
+limit:
+  enabled: true
+  # Máximo que irá recolher por vez
+  max: 1000
+
+# Deletar a recompensa ao clicar com botão direito
+right-delete-reward: true
+
 # Tempo para atualizar a lista de tops
 # em segundos
 top-list-tick: 1800

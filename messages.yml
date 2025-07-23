@@ -24,3 +24,6 @@ chat:
   top-not-set: '&cEste TOP do tipo, entidade e index, não está setado. Defina-o utilizando: /topentity set'
   top-set: '&aTOP definido com sucesso.'
   top-deleted: '&aTOP deletado com sucesso.'
+  reward-collected: '&eItem recolhido com sucesso.'
+  reward-collected-all: '&eTodas as recompensas possíveis foram recolhidas com sucesso.'
+  reward-forced: '&aRecompensas {mode} entregues forçadamente!'
