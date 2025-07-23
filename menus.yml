@@ -31,15 +31,6 @@ main:
   next-slot: 17
   # Itens dos tops
   items:
-    rewards-slot: 31
-    rewards:
-      material: 'CHEST'
-      name: '&aRecompensas'
-      lore:
-        - ''
-        - ' &fRecompensas no armazém: &a{amount}&f.'
-        - ''
-        - '&7Clique para gerenciar'
     money:
       top-type: 'VAULT'
       material: 'EMERALD'
